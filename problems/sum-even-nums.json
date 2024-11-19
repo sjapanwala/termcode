@@ -1,0 +1,48 @@
+{
+    "id": 5,
+    "date-created": "2024-11-19",
+    "pack": "Intro to Python",
+    "title": "Sum of Even Numbers",
+    "difficulty": "Easy",
+    "completion": "no",
+    "description": "Given a list of integers, return the sum of all even numbers in the list.\n\nExample 1:\nInput: [1, 2, 3, 4, 5]\nOutput: 6 (2 + 4)\n\nExample 2:\nInput: [10, 11, 12, 13, 14]\nOutput: 36 (10 + 12 + 14)",
+    "function_template": "def sum_of_even_numbers(nums: List[int]) -> int:\n    # Write your solution here\n    pass",
+    "test_cases": [
+        {
+            "inputs": [
+                [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            ],
+            "expected_output": 6
+        },
+        {
+            "inputs": [
+                [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            ],
+            "expected_output": 36
+        },
+        {
+            "inputs": [
+                [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            ],
+            "expected_output": 18
+        }
+    ]
+}

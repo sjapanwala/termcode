@@ -284,9 +284,9 @@ class TerminalLeetCode:
                     print(f"Your output: {result}")
                     
                     if result == test_case.expected_output:
-                        print("✓ Passed")
+                        print("\033[92m✓ Passed\033[0m")
                     else:
-                        print("✗ Failed")
+                        print("\033[91m✗ Failed\033[0m")
                         all_passed = False
                 except Exception as e:
                     print(f"✗ Error: {str(e)}")
@@ -294,10 +294,10 @@ class TerminalLeetCode:
                 print()
 
             if all_passed:
-                print("Congratulations! All test cases passed!")
+                print("\033[92mCongratulations! All test cases passed!\033[0m")
                 
             else:
-                print("Some test cases failed. Keep trying!")
+                print("\033[91mSome test cases failed. Keep trying!\033[0m")
 
         except Exception as e:
             print(f"Error in your code: {str(e)}")

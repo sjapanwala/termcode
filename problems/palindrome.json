@@ -1,0 +1,26 @@
+{
+    "id": 4,
+    "title": "Palindrome Number",
+    "completion": "yes",
+    "difficulty": "Easy",
+    "description": "Given an integer x, return true if x is a palindrome, and false otherwise.\n\nA palindrome is a number that reads the same backward as forward.\n\nExample 1:\nInput: x = 121\nOutput: true\nExplanation: 121 reads as 121 from left to right and from right to left.\n\nExample 2:\nInput: x = -121\nOutput: false\nExplanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.",
+    "function_template": "def is_palindrome(x: int) -> bool:\n    # Write your solution here\n    pass",
+    "test_cases": [
+        {
+            "inputs": [121],
+            "expected_output": true
+        },
+        {
+            "inputs": [-121],
+            "expected_output": false
+        },
+        {
+            "inputs": [10],
+            "expected_output": false
+        },
+        {
+            "inputs": [12321],
+            "expected_output": true
+        }
+    ]
+}
