@@ -1,0 +1,32 @@
+{
+    "id": ,
+    // id number, will be re shuffled, by user
+    "author": ,
+    // your name
+    "date-created": ,
+    // date created
+    "pack" : ,
+    // if its part of a pack
+    "title": ,
+    // problem title
+    "difficulty": ,
+    // set difficulty (easy, med, hard)
+    "completion": ,
+    // completion status; default = no
+    "description": ,
+    // problem desc
+    "function_template":,
+    // this is the function header
+    "test_cases": [
+      // add test cases here, min 3 //
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+    ]
+}
